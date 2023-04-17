@@ -1,0 +1,150 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* .container{
+  
+} */
+.container {
+  background-color: #086788;
+  width: 100%;
+  padding: 1em 1em;
+}
+.container_head {
+  display: flex;
+  margin: 0 auto;
+  max-height: 80%;
+  align-items: center;
+  padding: 1em 1em;
+  /* border: 2px solid #000; */
+}
+.container_child p{
+  max-width: 80%;
+}
+.container_child h1{
+  margin-bottom: 1em;
+}
+.container_child > h1{
+  text-align: start;
+}
+
+h1{
+  text-align: center;
+  color: #FFF1D0;
+}
+p{
+  font-size: 1.2em;
+  color: #000;
+}
+.btn_submit {
+  padding: 1em 2em;
+  font-size: 1em;
+  /* display: block;
+  margin: 0 auto; */
+  margin-top: 2em;
+  border-radius: 20px;
+  border: none;
+  /* font-weight: 20px; */
+}
+.btn_submit:hover{
+  background-color: #030027;
+  color: #fff;
+}
+.page {
+  color: #000;
+  text-align: left;
+}
+.container_one {
+  width: 80%;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+.page_head {
+  background-color: rgb(77, 42, 30);
+  padding: 5em 0;
+  display: flex;
+}
+@media only screen and (max-width: 700px) {
+  .page_head {
+    flex-direction: column;
+  }
+  .img_title {
+    margin: 0 auto;
+  }
+}
+.page_head .page_title {
+  width: 80%;
+  margin: 0 auto;
+}
+img {
+  width: 300px;
+  max-height: 500px;
+  /* border-radius: 50%; */
+  margin: 2em 2em;
+  padding: 5em 0;
+}
+
+.sidebar {
+  background-color: #086788;
+  border-radius: 10px;
+}
+
+.container-section {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1100px;
+  display: flex;
+  justify-content: space-around;
+}
+.sidebar {
+  max-width: 40%;
+  text-align: center;
+}
+.sidebar p{
+  color: #fff;
+  margin: 1em 0;
+}
+.sidebar h2{
+  margin-top: 10px;
+  color: #fff;
+  font-weight: bold;
+}
+.section-title {
+  color: purple;
+  text-align: center;
+}
+.primary-content p {
+  margin: 1em;
+}
+/* nav style */
+.nav_wrapper {
+  background-color: #034078;
+  /* padding: 1em 1em; */
+  color: #fff;
+  text-transform: uppercase;
+}
+.nav_list {
+  display: flex;
+}
+button {
+  padding: .4em 1em;
+  border: none;
+  border-radius: 1em;
+  text-transform: uppercase;
+  background-color: #A71D31;
+  color: #fff;
+}
+.nav_list li{
+  text-decoration: none;
+  list-style: none;
+  margin: .9em;
+}
+.item_btn:hover{
+ opacity: .75;
+}
+
+li a{
+  color: #fff;
+  text-decoration: none;
+}
